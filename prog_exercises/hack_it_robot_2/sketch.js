@@ -9,15 +9,18 @@ function draw()
 	strokeWeight(2);
 
 	//robot body 1 - delete this code and make your own robot body
-	fill(200);
+	fill(0,0,128);
 	rect(90, 200, 120, 130);
+    fill(255,255,224)
 	rect(70, 200, 30, 100);
 	rect(200, 200, 30, 100);
 	rect(120, 330, 30, 110);
 	rect(150, 330, 30, 110);
 
 	//robot body 2 - delete this code and make your own robot body
+    fill(255,239,213)
 	rect(390, 200, 120, 130);
+    fill(255,105,180)
 	rect(370, 200, 30, 100);
 	rect(500, 200, 30, 100);
 	rect(420, 330, 30, 110);
@@ -25,7 +28,9 @@ function draw()
 
 
 	//robot body 3 - delete this code and make your own robot body
+    fill(139,69,19)
 	rect(690, 200, 120, 130);
+    fill(184,134,11)
 	rect(670, 200, 30, 100);
 	rect(800, 200, 30, 100);
 	rect(720, 330, 30, 110);
@@ -35,11 +40,13 @@ function draw()
 	// !!! Draw the robot heads - You shouldn't need to change this code !!!
 
 	//robot head 1
-	fill(200);
+	fill(250);
 	rect(100, 100, 100, 100, 10);
     //robot head 2
+    fill(128,0,128)
 	rect(400, 100, 100, 100, 10);
     //robot head 3
+    fill(127,255,212)
 	rect(700, 100, 100, 100, 10);
 
 	//ears
